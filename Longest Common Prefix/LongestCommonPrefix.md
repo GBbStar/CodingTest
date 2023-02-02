@@ -59,3 +59,9 @@ strs[i] consists of only lowercase English letters.
    2-2-2. 안가짐(거짓)
    없음
    반복된 요소가 있다면, 이 요소를 가지고 다른 길이의 값들도 가지는지 확인
+
+
+솔루션
+   단어들 중 하나를 commonPrefix라고 임의로 지정한다.
+   모든 단어들마다 임의로 지정한 commonPrefix로 시작하는지 체크한다
+      단어마다 체크하는 과정에서 commonPrefix로 시작하지 않는다면, 시작할 때까지 반복적으로 commonPrefix를 뒤에 한글자씩 뺀다
