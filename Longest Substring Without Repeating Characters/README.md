@@ -26,7 +26,7 @@ Example 3:
 >
 > Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
-
+<br/> 
    
 Constraints:
 
@@ -35,3 +35,8 @@ s consists of English letters, digits, symbols and spaces.
 
 
 <hr/>
+
+<br/> <br/> 
+
+   
+
