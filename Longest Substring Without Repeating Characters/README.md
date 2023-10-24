@@ -38,7 +38,7 @@ s consists of English letters, digits, symbols and spaces.
 
 <br/> <br/> 
 
-'''
+```
 class SpeedSolution {
   int lengthOfLongestSubstring(String s) {
     int n = s.length;
@@ -60,11 +60,11 @@ class SpeedSolution {
     return max;
   }
 }
-'''
+```
 
 <br/> 
 
-'''
+```
 class BalanceSolution {
   int lengthOfLongestSubstring(String s) {
     int n = s.length;
@@ -84,5 +84,5 @@ class BalanceSolution {
     return maxLength;
   }
 }
-'''
+```
 
